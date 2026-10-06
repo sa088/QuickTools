@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  :root.dark {
+    color-scheme: dark;
+  }
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  :root.dark body {
+    background-color: #090d16;
+    color: #f8fafc;
+  }
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  /* Explicit Pointer Cursor for All Clickable Controls */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  select:not(:disabled),
+  summary,
+  input[type="submit"]:not(:disabled),
+  input[type="button"]:not(:disabled),
+  input[type="reset"]:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled),
+  a[href] {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [role="button"][aria-disabled="true"],
+  input:disabled,
+  select:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Micro-glow utilities */
+.glow-emerald {
+  box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.18), 0 8px 10px -6px rgba(16, 185, 129, 0.12);
+}
+.glow-indigo {
+  box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.18), 0 8px 10px -6px rgba(99, 102, 241, 0.12);
+}
+.glow-rose {
+  box-shadow: 0 10px 25px -5px rgba(244, 63, 94, 0.18), 0 8px 10px -6px rgba(244, 63, 94, 0.12);
+}
+.glow-amber {
+  box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.18), 0 8px 10px -6px rgba(245, 158, 11, 0.12);
+}
+.glow-cyan {
+  box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.18), 0 8px 10px -6px rgba(6, 182, 212, 0.12);
+}
+
+/* Print Styles for PDF & Hardware Printing */
+@media print {
+  nav, footer, .no-print, header, aside, .animate-marquee {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .shadow-sm, .shadow-md, .shadow-lg, .shadow-xl {
+    box-shadow: none !important;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+}
