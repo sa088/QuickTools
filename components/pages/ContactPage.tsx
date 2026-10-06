@@ -25,7 +25,7 @@ export function ContactPage() {
           <Mail className="w-6 h-6 text-indigo-600 dark:text-indigo-400 shrink-0" />
           <div>
             <p className="text-xs font-semibold text-slate-500 dark:text-slate-400">Direct Email Support</p>
-            <p className="text-sm font-bold text-slate-900 dark:text-white">support@quicktools.app</p>
+            <p className="text-sm font-bold text-slate-900 dark:text-white">support@quicktoolsonline.vercel.app</p>
           </div>
         </div>
 

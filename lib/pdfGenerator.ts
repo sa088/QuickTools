@@ -339,7 +339,7 @@ export function generatePdfReport(options: PdfReportOptions): void {
     doc.setFontSize(7);
     doc.setTextColor(148, 163, 184);
     doc.text(
-      'QuickTools Online Calculations - Official Report Export - https://quicktools.app',
+      'QuickTools Online Calculations - Official Report Export - https://quicktoolsonline.vercel.app',
       margin,
       pageHeight - 6
     );

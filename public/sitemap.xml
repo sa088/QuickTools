@@ -1,98 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
-    <loc>https://quicktools.app/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- High-Traffic Financial & Tax Tools -->
   <url>
-    <loc>https://quicktools.app/zakat-calculator</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/zakat-calculator</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/income-tax-calculator</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/income-tax-calculator</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/loan-emi-calculator</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://quicktools.app/currency-converter</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/currency-converter</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/unit-converter</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/loan-emi-calculator</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/compound-interest</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- High-Demand PDF & Document Suite -->
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/word-to-pdf</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/pdf-to-word</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/excel-to-pdf</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/pdf-to-excel</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/jpg-to-pdf</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/pdf-to-jpg</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/pdf-tools</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Image Studio Tools -->
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/background-remover</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/image-converter</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/image-compressor</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/image-resizer</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Daily Utilities & Everyday Calculators -->
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/percentage-calculator</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/percentage-calculator</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/unit-converter</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/compound-interest</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/discount-calculator</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/bmi-calculator</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/age-calculator</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Developer & Text Utilities -->
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/json-formatter</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/bmi-calculator</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/password-generator</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/discount-calculator</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/qr-code-generator</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/age-calculator</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/word-counter</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/about</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/case-converter</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/base64-converter</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Legal & Info Pages -->
+  <url>
+    <loc>https://quicktoolsonline.vercel.app/about</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/contact</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/contact</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/privacy-policy</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/privacy-policy</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.40</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/terms-of-service</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/terms-of-service</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.40</priority>
   </url>
   <url>
-    <loc>https://quicktools.app/disclaimer</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://quicktoolsonline.vercel.app/disclaimer</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.40</priority>
   </url>

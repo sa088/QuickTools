@@ -99,7 +99,7 @@ export function GeneratorsSuiteTool({ defaultMode = 'password' }: { defaultMode?
 
   // --- QR CODE GENERATOR STATE ---
   const [qrType, setQrType] = useState<'url' | 'text' | 'wifi' | 'email'>('url');
-  const [qrContent, setQrContent] = useState('https://quicktools.app');
+  const [qrContent, setQrContent] = useState('https://quicktoolsonline.vercel.app');
   const [wifiSsid, setWifiSsid] = useState('');
   const [wifiPass, setWifiPass] = useState('');
   const [wifiAuth, setWifiAuth] = useState<'WPA' | 'WEP' | 'nopass'>('WPA');
@@ -115,7 +115,7 @@ export function GeneratorsSuiteTool({ defaultMode = 'password' }: { defaultMode?
     if (qrType === 'email') {
       return `mailto:${qrContent}`;
     }
-    return qrContent || 'https://quicktools.app';
+    return qrContent || 'https://quicktoolsonline.vercel.app';
   };
 
   useEffect(() => {

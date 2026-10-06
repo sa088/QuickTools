@@ -152,7 +152,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
   return (
     <div className="space-y-6 sm:space-y-8 pb-16">
       {/* Compact, Well-Proportioned Hero Section */}
-      <section className="relative z-30 bg-gradient-to-b from-indigo-50/70 via-emerald-50/20 to-slate-50 dark:from-slate-900/80 dark:via-slate-950 dark:to-slate-950 pt-5 sm:pt-7 pb-5 sm:pb-6 border-b border-slate-200/80 dark:border-slate-800">
+      <section className="relative z-30 bg-linear-to-b from-indigo-50/70 via-emerald-50/20 to-slate-50 dark:from-slate-900/80 dark:via-slate-950 dark:to-slate-950 pt-5 sm:pt-7 pb-5 sm:pb-6 border-b border-slate-200/80 dark:border-slate-800">
         <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">
           <div className="absolute -top-24 left-1/4 w-96 h-96 bg-indigo-400/10 dark:bg-indigo-600/10 rounded-full blur-3xl" />
           <div className="absolute -top-20 right-1/4 w-96 h-96 bg-emerald-400/10 dark:bg-emerald-600/10 rounded-full blur-3xl" />
@@ -169,19 +169,19 @@ export function HomePage({ onNavigate }: HomePageProps) {
           {/* Heading showcasing full rich breadth */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black tracking-tight max-w-4xl mx-auto leading-tight text-slate-900 dark:text-white">
             <span>Fast Online Tools for </span>
-            <span className="bg-gradient-to-r from-red-600 to-rose-600 dark:from-red-400 dark:to-rose-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-red-600 to-rose-600 dark:from-red-400 dark:to-rose-400 bg-clip-text text-transparent">
               PDF
             </span>
             <span className="text-slate-400 font-bold">, </span>
-            <span className="bg-gradient-to-r from-cyan-600 to-blue-600 dark:from-cyan-400 dark:to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-cyan-600 to-blue-600 dark:from-cyan-400 dark:to-blue-400 bg-clip-text text-transparent">
               Images
             </span>
             <span className="text-slate-400 font-bold">, </span>
-            <span className="bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400 bg-clip-text text-transparent">
               Finance
             </span>{' '}
             <span className="text-slate-400 font-bold">&amp;</span>{' '}
-            <span className="bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 bg-clip-text text-transparent">
               Code
             </span>
           </h1>
@@ -407,7 +407,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   >
                     <div>
                       <div className="flex items-start justify-between gap-2">
-                        <div className={`w-11 h-11 rounded-2xl bg-gradient-to-br ${tool.gradient} text-white flex items-center justify-center shadow-md shrink-0 group-hover:scale-105 transition-transform duration-200`}>
+                        <div className={`w-11 h-11 rounded-2xl bg-linear-to-br ${tool.gradient} text-white flex items-center justify-center shadow-md shrink-0 group-hover:scale-105 transition-transform duration-200`}>
                           {ICONS_MAP[tool.iconName] || <Calculator className="w-5 h-5 text-white" />}
                         </div>
                         {tool.badge && (

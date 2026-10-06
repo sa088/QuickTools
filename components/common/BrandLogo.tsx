@@ -217,8 +217,8 @@ export function BrandLogo({
             {/* "Quick" with energetic gradient */}
             <span className={
               inverted 
-                ? "text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-yellow-400 font-black"
-                : "text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-indigo-700 to-violet-600 dark:from-indigo-400 dark:via-violet-400 dark:to-purple-300 font-black"
+                ? "text-transparent bg-clip-text bg-linear-to-r from-amber-300 via-amber-200 to-yellow-400 font-black"
+                : "text-transparent bg-clip-text bg-linear-to-r from-indigo-600 via-indigo-700 to-violet-600 dark:from-indigo-400 dark:via-violet-400 dark:to-purple-300 font-black"
             }>
               Quick
             </span>

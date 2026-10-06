@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://quicktools.app/sitemap.xml
+Sitemap: https://quicktoolsonline.vercel.app/sitemap.xml

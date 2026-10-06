@@ -55,10 +55,13 @@ export function ToolPageWrapper({ toolId, onNavigate }: ToolPageWrapperProps) {
       setMetaTag('name', 'keywords', seo.keywords.join(', '));
     }
 
-    // 3. OpenGraph Social Cards
+    // 3. OpenGraph Social Cards & Canonical URL
+    const activeOrigin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : 'https://quicktoolsonline.vercel.app';
+    const activeCanonical = `${activeOrigin}${window.location.pathname}`;
+
     setMetaTag('property', 'og:title', seo.title);
     setMetaTag('property', 'og:description', seo.description);
-    setMetaTag('property', 'og:url', seo.canonical || window.location.href);
+    setMetaTag('property', 'og:url', activeCanonical);
     setMetaTag('property', 'og:type', 'website');
     setMetaTag('property', 'og:site_name', 'QuickTools');
 
@@ -74,7 +77,7 @@ export function ToolPageWrapper({ toolId, onNavigate }: ToolPageWrapperProps) {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', seo.canonical || window.location.href);
+    canonical.setAttribute('href', activeCanonical);
 
     // 6. Inject Schema.org JSON-LD directly into <head> for search engines
     if (schema) {

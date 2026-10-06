@@ -56,7 +56,7 @@ export function DeveloperToolsSuite({ defaultMode = 'json' }: { defaultMode?: De
   };
 
   // --- URL ENCODER / DECODER STATE ---
-  const [urlInput, setUrlInput] = useState<string>('https://quicktools.app/search?query=zakat calculator&currency=PKR&tax_year=2026');
+  const [urlInput, setUrlInput] = useState<string>('https://quicktoolsonline.vercel.app/search?query=zakat calculator&currency=PKR&tax_year=2026');
   const [urlMode, setUrlMode] = useState<'encode' | 'decode'>('encode');
 
   const processedUrl = useMemo(() => {
@@ -105,8 +105,8 @@ export function DeveloperToolsSuite({ defaultMode = 'json' }: { defaultMode?: De
   const [regexPattern, setRegexPattern] = useState<string>('[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}');
   const [regexFlags, setRegexFlags] = useState<string>('gi');
   const [regexTestText, setRegexTestText] = useState<string>(
-`Contact our developer support team at dev@quicktools.app or admin@example.org.
-You can also reach feedback@domain.co.uk anytime.`
+`Contact our developer support team at dev@quicktoolsonline.vercel.app.
+You can also reach feedback@quicktoolsonline.vercel.app anytime.`
   );
 
   const regexMatches = useMemo(() => {

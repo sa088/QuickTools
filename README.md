@@ -1,5 +1,6 @@
 # QuickTools — Fast Online Tools, Images and Document Studio & Daily Utilities
 
+[![Live Website](https://img.shields.io/badge/Live_Website-quicktoolsonline.vercel.app-000000?logo=vercel&logoColor=white)](https://quicktoolsonline.vercel.app/)
 [![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -7,6 +8,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25_In--Browser-brightgreen)](#-security--privacy-architecture)
 [![Deployment](https://img.shields.io/badge/Deployment-Vercel_Ready-black?logo=vercel)](https://vercel.com/)
+
+> 🌐 **Live Website**: **[https://quicktoolsonline.vercel.app/](https://quicktoolsonline.vercel.app/)**
 
 **QuickTools** is a high-performance, modern web application featuring an all-in-one suite of 30+ instant browser-based tools. From client-side PDF and Office conversions to AI-powered background removal, real-time Pakistan bullion market rates, FBR income tax calculations, and developer utilities—every single tool runs **100% client-side inside the user's browser sandbox** for zero latency, zero cloud upload costs, and complete privacy.
 

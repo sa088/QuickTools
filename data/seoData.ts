@@ -28,7 +28,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'zakat-calculator': {
     title: 'Zakat Calculator 2026 - Live Gold & Silver Nisab Rates Pakistan | QuickTools',
     description: 'Calculate your obligatory Zakat with live bullion rates in PKR & USD. Evaluates Gold (87.48g) and Silver (612.36g) Nisab thresholds, cash, investments, trading goods & deductible debts.',
-    canonical: 'https://quicktools.app/zakat-calculator',
+    canonical: 'https://quicktoolsonline.vercel.app/zakat-calculator',
     keywords: [
       'zakat calculator',
       'zakat calculator pakistan',
@@ -115,7 +115,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'income-tax-calculator': {
     title: 'Pakistan Income Tax Calculator 2025-2026 & 2026-2027 (FBR Slabs) | QuickTools',
     description: 'Calculate salaried income tax deductions in Pakistan under FBR Section 149 Finance Act 2025 & 2026. Instant monthly net take-home salary, tax bracket analysis & downloadable PDF report.',
-    canonical: 'https://quicktools.app/income-tax-calculator',
+    canonical: 'https://quicktoolsonline.vercel.app/income-tax-calculator',
     keywords: [
       'income tax calculator pakistan',
       'fbr tax calculator 2025-26',
@@ -200,7 +200,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'loan-emi-calculator': {
     title: 'Loan & Car EMI Calculator with Full Amortization Schedule | QuickTools',
     description: 'Calculate monthly loan EMI repayments for auto financing, home mortgages, and personal bank loans in PKR & USD. Features detailed monthly interest breakdown and PDF export.',
-    canonical: 'https://quicktools.app/loan-emi-calculator',
+    canonical: 'https://quicktoolsonline.vercel.app/loan-emi-calculator',
     keywords: [
       'loan emi calculator',
       'car loan calculator pakistan',
@@ -284,7 +284,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'unit-converter': {
     title: 'Universal Unit Converter - Length, Weight, Area, Speed & Temp | QuickTools',
     description: 'Free instant unit converter for Metric & Imperial systems. Convert meters to feet, kg to lbs, celsius to fahrenheit, square feet to marla, km/h to mph with live precision.',
-    canonical: 'https://quicktools.app/unit-converter',
+    canonical: 'https://quicktoolsonline.vercel.app/unit-converter',
     keywords: [
       'unit converter',
       'feet to meters converter',
@@ -369,7 +369,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'percentage-calculator': {
     title: 'Percentage Calculator - 6-in-1 Percent Increase, Decrease & Change | QuickTools',
     description: 'Solve percentage problems with 6 instant solvers: What is X% of Y, percentage increase/decrease, percentage difference, fractional ratio growth & profit margin markup.',
-    canonical: 'https://quicktools.app/percentage-calculator',
+    canonical: 'https://quicktoolsonline.vercel.app/percentage-calculator',
     keywords: [
       'percentage calculator',
       'percent increase calculator',
@@ -451,7 +451,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'compound-interest': {
     title: 'Compound Interest Calculator - Investment & Wealth Growth Forecast | QuickTools',
     description: 'Forecast savings and mutual fund growth with monthly recurring deposits and compounding frequency. View year-by-year portfolio progression and download PDF.',
-    canonical: 'https://quicktools.app/compound-interest',
+    canonical: 'https://quicktoolsonline.vercel.app/compound-interest',
     keywords: [
       'compound interest calculator',
       'investment growth calculator',
@@ -536,7 +536,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'currency-converter': {
     title: 'Live Currency Converter - USD, PKR, EUR, GBP & 150+ Currencies | QuickTools',
     description: 'Convert 150+ world currencies with real-time mid-market exchange rates. Live USD to PKR, EUR, GBP, AED, SAR rates with bank exchange markup spread estimation.',
-    canonical: 'https://quicktools.app/currency-converter',
+    canonical: 'https://quicktoolsonline.vercel.app/currency-converter',
     keywords: [
       'currency converter',
       'dollar to pkr today',
@@ -615,7 +615,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'bmi-calculator': {
     title: 'BMI Calculator - Body Mass Index & Ideal Healthy Weight (WHO) | QuickTools',
     description: 'Calculate your Body Mass Index (BMI) using WHO standards. Supports metric (cm/kg) and imperial (ft/in/lbs) with ideal healthy body weight range guidance.',
-    canonical: 'https://quicktools.app/bmi-calculator',
+    canonical: 'https://quicktoolsonline.vercel.app/bmi-calculator',
     keywords: [
       'bmi calculator',
       'body mass index calculator',
@@ -694,7 +694,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'discount-calculator': {
     title: 'Discount Calculator - Sale Price, Promo Coupon & Sales Tax Savings | QuickTools',
     description: 'Calculate final checkout shopping prices, stacked double percentage discounts, coupon codes, and sales tax with net cash savings breakdown. Download itemized PDF receipt.',
-    canonical: 'https://quicktools.app/discount-calculator',
+    canonical: 'https://quicktoolsonline.vercel.app/discount-calculator',
     keywords: [
       'discount calculator',
       'sale price calculator',
@@ -769,7 +769,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'age-calculator': {
     title: 'Age Calculator - Exact Birthday Counter, Days & Next Milestone | QuickTools',
     description: 'Calculate your exact chronological age down to years, months, weeks, days, and total hours lived. Features next birthday live countdown and birth day of the week.',
-    canonical: 'https://quicktools.app/age-calculator',
+    canonical: 'https://quicktoolsonline.vercel.app/age-calculator',
     keywords: [
       'age calculator',
       'exact age calculator',
@@ -842,7 +842,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'pdf-tools': {
     title: 'PDF Studio - Merge, Split, Compress & Convert PDF Online | QuickTools',
     description: 'Free client-side PDF tools. Merge multiple PDF files, split page ranges, compress file size, and convert notes into official A4 PDFs with 100% privacy.',
-    canonical: 'https://quicktools.app/pdf-tools',
+    canonical: 'https://quicktoolsonline.vercel.app/pdf-tools',
     keywords: ['pdf tools', 'merge pdf', 'split pdf', 'compress pdf', 'combine pdf', 'extract pdf pages', 'free pdf tool'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'Comprehensive Guide to In-Browser PDF Management & Security',
@@ -874,7 +874,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'jpg-to-pdf': {
     title: 'JPG to PDF Converter - Photos & Images to Multi-Page PDF | QuickTools',
     description: 'Convert JPG, PNG, and WebP images into high-resolution multi-page PDF files. Customize page orientation, paper format (A4 / Letter), and margins.',
-    canonical: 'https://quicktools.app/jpg-to-pdf',
+    canonical: 'https://quicktoolsonline.vercel.app/jpg-to-pdf',
     keywords: ['jpg to pdf', 'image to pdf', 'convert photo to pdf', 'png to pdf', 'multi page pdf from images', 'free jpg to pdf'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'How to Convert Image Files into Professional Printable PDFs',
@@ -900,7 +900,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'image-converter': {
     title: 'Image Converter - Convert JPG, PNG & WebP Online | QuickTools',
     description: 'Instant client-side image format converter. Convert JPG to PNG, PNG to JPG, WebP to JPG, and SVG to PNG with zero quality loss and no server uploads.',
-    canonical: 'https://quicktools.app/image-converter',
+    canonical: 'https://quicktoolsonline.vercel.app/image-converter',
     keywords: ['image converter', 'jpg to png', 'png to jpg', 'webp to jpg', 'convert image format', 'online image converter'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'Guide to Modern Web Image Formats: JPG vs PNG vs WebP',
@@ -926,7 +926,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'image-compressor': {
     title: 'Image Compressor & Resizer - Reduce Image Size in KB | QuickTools',
     description: 'Compress image file weight in KB without visible blur. Resize pixel dimensions with aspect ratio lock for website optimization, email, and social media.',
-    canonical: 'https://quicktools.app/image-compressor',
+    canonical: 'https://quicktoolsonline.vercel.app/image-compressor',
     keywords: ['image compressor', 'compress image', 'reduce image size kb', 'resize image', 'photo resizer', 'optimize image for web'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'How to Compress Images for Ultra-Fast Web Loading Speeds',
@@ -951,7 +951,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'background-remover': {
     title: 'Background Remover - Create Transparent PNG Online | QuickTools',
     description: 'Free client-side background eraser. Remove solid or gradient backgrounds from logos, products, signatures, and icons to create clean transparent PNGs.',
-    canonical: 'https://quicktools.app/background-remover',
+    canonical: 'https://quicktoolsonline.vercel.app/background-remover',
     keywords: ['background remover', 'transparent background', 'png cutout', 'remove background from logo', 'free background eraser'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'How to Make Transparent PNG Cutouts in Your Browser',
@@ -976,7 +976,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'word-counter': {
     title: 'Word Counter & Character Counter Online | QuickTools',
     description: 'Live text statistics tool: Count words, characters with/without spaces, sentences, paragraphs, reading duration, and top keyword density in real-time.',
-    canonical: 'https://quicktools.app/word-counter',
+    canonical: 'https://quicktoolsonline.vercel.app/word-counter',
     keywords: ['word counter', 'character counter', 'count characters online', 'reading time calculator', 'essay word count', 'keyword density tool'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'The Complete Guide to Word Counts, Reading Speeds & Text Metrics',
@@ -1002,7 +1002,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'case-converter': {
     title: 'Case Converter & Text Cleaner Online | QuickTools',
     description: 'Convert text between UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, and kebab-case. Deduplicate and clean lines.',
-    canonical: 'https://quicktools.app/case-converter',
+    canonical: 'https://quicktoolsonline.vercel.app/case-converter',
     keywords: ['case converter', 'uppercase to lowercase', 'title case converter', 'camelcase converter', 'snake case', 'text cleaner', 'sort lines'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'Guide to Letter Cases in Writing & Programming',
@@ -1027,7 +1027,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'password-generator': {
     title: 'Secure Password Generator Online - Strong & Random | QuickTools',
     description: 'Generate high-entropy random passwords using cryptographic random values. Customize length, uppercase, numbers, symbols, and lookalike filters.',
-    canonical: 'https://quicktools.app/password-generator',
+    canonical: 'https://quicktoolsonline.vercel.app/password-generator',
     keywords: ['password generator', 'strong password generator', 'random password', 'secure password generator', 'entropy password', 'pin generator'],
     applicationCategory: 'SecurityApplication',
     guideTitle: 'How to Create Secure Passwords That Resist Modern Brute-Force Attacks',
@@ -1052,7 +1052,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'qr-code-generator': {
     title: 'QR Code Generator - Create Free Custom QR Codes Online | QuickTools',
     description: 'Generate customizable vector and raster QR codes for URLs, WiFi networks, text, and email. Export high-resolution PNG and scalable vector SVG.',
-    canonical: 'https://quicktools.app/qr-code-generator',
+    canonical: 'https://quicktoolsonline.vercel.app/qr-code-generator',
     keywords: ['qr code generator', 'free qr code', 'wifi qr code', 'svg qr code', 'custom qr code generator', 'make qr code online'],
     applicationCategory: 'UtilityApplication',
     guideTitle: 'The Definitive Guide to QR Codes: Encoding, Error Correction & Printing',
@@ -1077,7 +1077,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'uuid-generator': {
     title: 'UUID & GUID Generator v4 - Random UUIDs Online | QuickTools',
     description: 'Generate RFC 4122 compliant Version 4 UUIDs (Universally Unique Identifiers) in bulk. Customize hyphens, uppercase formatting, and batch export.',
-    canonical: 'https://quicktools.app/uuid-generator',
+    canonical: 'https://quicktoolsonline.vercel.app/uuid-generator',
     keywords: ['uuid generator', 'guid generator', 'uuid v4', 'generate uuid online', 'batch uuid generator', 'random uuid'],
     applicationCategory: 'DeveloperApplication',
     guideTitle: 'Understanding UUID v4: Mathematics & Uniqueness Collision Probabilities',
@@ -1102,7 +1102,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'json-formatter': {
     title: 'JSON Formatter, Validator & Beautifier Online | QuickTools',
     description: 'Beautify, format, validate, and minify JSON data. Highlights syntax errors with exact line indicators, inspects key hierarchies, and offers one-click copy.',
-    canonical: 'https://quicktools.app/json-formatter',
+    canonical: 'https://quicktoolsonline.vercel.app/json-formatter',
     keywords: ['json formatter', 'json validator', 'beautify json', 'minify json', 'json viewer', 'json parser online', 'developer tools'],
     applicationCategory: 'DeveloperApplication',
     guideTitle: 'The Complete JSON Reference: Syntax, Validation & Best Practices',
@@ -1127,7 +1127,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'url-encoder': {
     title: 'URL Encoder & Decoder - Query Parameter Parser | QuickTools',
     description: 'Encode and decode URI components safely. Parse URL query strings into clean key-value tables and encode text to Base64 directly in browser.',
-    canonical: 'https://quicktools.app/url-encoder',
+    canonical: 'https://quicktoolsonline.vercel.app/url-encoder',
     keywords: ['url encoder', 'url decoder', 'encode uricomponent', 'url parser', 'query string parser', 'base64 encoder'],
     applicationCategory: 'DeveloperApplication',
     guideTitle: 'URL Encoding (Percent-Encoding) & Query Parameter Anatomy',
@@ -1152,7 +1152,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'regex-tester': {
     title: 'Regex Tester & Evaluator - Test Regular Expressions | QuickTools',
     description: 'Test, evaluate, and debug regular expressions in real-time. Features pattern match highlighting, flag toggles (g, i, m, s), and match group breakdown.',
-    canonical: 'https://quicktools.app/regex-tester',
+    canonical: 'https://quicktoolsonline.vercel.app/regex-tester',
     keywords: ['regex tester', 'regular expression tester', 'regex match', 'test regex online', 'regex evaluator', 'regex debugger'],
     applicationCategory: 'DeveloperApplication',
     guideTitle: 'The Practical Guide to Regular Expressions (Regex) in JavaScript',
@@ -1177,7 +1177,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'color-picker': {
     title: 'Color Picker & WCAG Contrast Checker - HEX, RGB, HSL | QuickTools',
     description: 'Inspect colors across HEX, RGB, and HSL formats. Evaluate WCAG AA and AAA accessibility contrast ratios, and explore automatic tints and shades.',
-    canonical: 'https://quicktools.app/color-picker',
+    canonical: 'https://quicktoolsonline.vercel.app/color-picker',
     keywords: ['color picker', 'hex to rgb', 'rgb to hex', 'hsl converter', 'wcag contrast checker', 'accessible colors', 'tints and shades'],
     applicationCategory: 'DesignApplication',
     guideTitle: 'The UI Designer\'s Guide to Color Spaces, HEX & WCAG Accessibility',
@@ -1202,7 +1202,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'gradient-generator': {
     title: 'CSS Gradient Generator & Color Palette Studio | QuickTools',
     description: 'Design beautiful linear and radial CSS gradients with multi-color stops, custom angles, instant CSS code generation, and randomized color harmonies.',
-    canonical: 'https://quicktools.app/gradient-generator',
+    canonical: 'https://quicktoolsonline.vercel.app/gradient-generator',
     keywords: ['gradient generator', 'css gradient', 'linear gradient generator', 'color palette generator', 'color harmonies', 'css background tool'],
     applicationCategory: 'DesignApplication',
     guideTitle: 'Creating Modern CSS Gradients & Cohesive Color Palettes',
@@ -1227,7 +1227,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'word-to-pdf': {
     title: 'Word to PDF Converter - Convert DOCX to PDF Online Free | QuickTools',
     description: 'Convert Microsoft Word documents (DOCX, DOC) to PDF instantly in your browser. 100% free, private, client-side conversion with zero file uploads or email requirements.',
-    canonical: 'https://quicktools.app/word-to-pdf',
+    canonical: 'https://quicktoolsonline.vercel.app/word-to-pdf',
     keywords: ['word to pdf', 'convert word to pdf', 'docx to pdf', 'doc to pdf', 'word to pdf free', 'convert docx to pdf online', 'client side word to pdf'],
     applicationCategory: 'UtilitiesApplication',
     guideTitle: 'Converting Microsoft Word Documents to High-Quality PDF',
@@ -1253,7 +1253,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'pdf-to-word': {
     title: 'PDF to Word Converter - Convert PDF to Editable DOCX | QuickTools',
     description: 'Extract text, formatting, and paragraphs from PDF files into editable Microsoft Word documents (.docx / rich text). 100% client-side privacy.',
-    canonical: 'https://quicktools.app/pdf-to-word',
+    canonical: 'https://quicktoolsonline.vercel.app/pdf-to-word',
     keywords: ['pdf to word', 'convert pdf to word', 'pdf to docx', 'pdf to editable docx', 'pdf to word converter free'],
     applicationCategory: 'UtilitiesApplication',
     guideTitle: 'Extracting Editable Word Documents from PDF Files',
@@ -1278,7 +1278,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'excel-to-pdf': {
     title: 'Excel to PDF Converter - Convert Spreadsheets to PDF Tables | QuickTools',
     description: 'Convert Excel files (.xlsx, .xls, .csv) into beautifully styled PDF tables. Select specific sheets, customize orientation, and download instantly.',
-    canonical: 'https://quicktools.app/excel-to-pdf',
+    canonical: 'https://quicktoolsonline.vercel.app/excel-to-pdf',
     keywords: ['excel to pdf', 'convert excel to pdf', 'xlsx to pdf', 'spreadsheet to pdf', 'convert spreadsheet to pdf table', 'excel to pdf free'],
     applicationCategory: 'UtilitiesApplication',
     guideTitle: 'Converting Excel Spreadsheets into Clean PDF Tables',
@@ -1303,7 +1303,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'pdf-to-excel': {
     title: 'PDF to Excel Converter - Extract PDF Tables to XLSX | QuickTools',
     description: 'Extract tables, row data, and numbers from PDF files directly into Microsoft Excel (.xlsx) spreadsheets. 100% private in-browser conversion.',
-    canonical: 'https://quicktools.app/pdf-to-excel',
+    canonical: 'https://quicktoolsonline.vercel.app/pdf-to-excel',
     keywords: ['pdf to excel', 'convert pdf to excel', 'pdf to xlsx', 'extract tables from pdf', 'pdf to spreadsheet', 'pdf to csv'],
     applicationCategory: 'UtilitiesApplication',
     guideTitle: 'Extracting Structured Data & Tables from PDFs to Excel',
@@ -1328,7 +1328,7 @@ export const SEO_DATA_MAP: Record<string, ToolSeoData> = {
   'pdf-to-jpg': {
     title: 'PDF to JPG Converter - High-Resolution PDF to Image | QuickTools',
     description: 'Convert PDF pages into high-resolution JPG images. Fast in-browser rendering, zero file size limits, and instant downloads.',
-    canonical: 'https://quicktools.app/pdf-to-jpg',
+    canonical: 'https://quicktoolsonline.vercel.app/pdf-to-jpg',
     keywords: ['pdf to jpg', 'convert pdf to jpg', 'pdf to image', 'pdf to png', 'extract images from pdf', 'pdf to picture free'],
     applicationCategory: 'UtilitiesApplication',
     guideTitle: 'Converting PDF Document Pages to Crystal-Clear JPG Images',
@@ -1390,13 +1390,13 @@ export function getToolSchema(toolId: string) {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://quicktools.app',
+            item: 'https://quicktoolsonline.vercel.app',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Tools',
-            item: 'https://quicktools.app/#featured-tools-section',
+            item: 'https://quicktoolsonline.vercel.app/#featured-tools-section',
           },
           {
             '@type': 'ListItem',
