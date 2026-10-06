@@ -160,8 +160,35 @@ export default function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  // Update document title for home/info pages
+  // Update document title, canonical link and OpenGraph URL for home/info/tool pages
   useEffect(() => {
+    const origin = typeof window !== 'undefined' && window.location.origin
+      ? window.location.origin
+      : 'https://quicktoolsonline.vercel.app';
+    const canonicalHref = currentPath === '/' ? `${origin}/` : `${origin}${currentPath}`;
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', canonicalHref);
+
+    let ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) {
+      ogUrl.setAttribute('content', canonicalHref);
+    }
+
+    // Clean up tool-specific schema when navigating to non-tool pages
+    const isInfoOrHomePage = ['/', '/about', '/contact', '/privacy-policy', '/terms-of-service', '/disclaimer'].includes(currentPath);
+    if (isInfoOrHomePage) {
+      const toolScript = document.getElementById('route-schema-jsonld');
+      if (toolScript && toolScript.parentNode) {
+        toolScript.parentNode.removeChild(toolScript);
+      }
+    }
+
     if (currentPath === '/') {
       document.title = 'QuickTools - Fast Online Tools & Daily Utilities';
     } else if (currentPath === '/about') {

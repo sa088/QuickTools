@@ -1356,31 +1356,32 @@ export function getToolSchema(toolId: string) {
   const data = SEO_DATA_MAP[toolId];
   if (!data) return null;
 
+  const toolCleanName = data.title.split(' | ')[0].split(' - ')[0].trim();
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'WebApplication',
         '@id': `${data.canonical}/#webapp`,
-        name: data.title.split(' | ')[0],
+        name: toolCleanName,
         url: data.canonical,
         description: data.description,
         applicationCategory: data.applicationCategory,
         operatingSystem: 'All',
         browserRequirements: 'Requires JavaScript. Requires HTML5.',
+        image: 'https://quicktoolsonline.vercel.app/icon-512.png',
         offers: {
           '@type': 'Offer',
           price: '0',
           priceCurrency: 'USD',
         },
-        featureList: data.steps.map((s) => s.title),
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          bestRating: '5',
-          worstRating: '1',
-          ratingCount: '1480',
+        author: {
+          '@type': 'Organization',
+          name: 'QuickTools',
+          url: 'https://quicktoolsonline.vercel.app/',
         },
+        featureList: data.steps.map((s) => s.title),
       },
       {
         '@type': 'BreadcrumbList',
@@ -1390,18 +1391,12 @@ export function getToolSchema(toolId: string) {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://quicktoolsonline.vercel.app',
+            item: 'https://quicktoolsonline.vercel.app/',
           },
           {
             '@type': 'ListItem',
             position: 2,
-            name: 'Tools',
-            item: 'https://quicktoolsonline.vercel.app/#featured-tools-section',
-          },
-          {
-            '@type': 'ListItem',
-            position: 3,
-            name: data.title.split(' - ')[0],
+            name: toolCleanName,
             item: data.canonical,
           },
         ],
@@ -1411,8 +1406,9 @@ export function getToolSchema(toolId: string) {
             {
               '@type': 'HowTo',
               '@id': `${data.canonical}/#howto`,
-              name: data.guideTitle || `How to use ${data.title.split(' - ')[0]}`,
+              name: data.guideTitle || `How to use ${toolCleanName}`,
               description: data.overviewText,
+              image: 'https://quicktoolsonline.vercel.app/icon-512.png',
               step: data.steps.map((s, idx) => ({
                 '@type': 'HowToStep',
                 position: idx + 1,

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { SEO_DATA_MAP, getToolSchema } from '@/data/seoData';
-import { JsonLd } from '@/components/seo/JsonLd';
 import { ToolSeoSection } from '@/components/seo/ToolSeoSection';
 
 import { ZakatCalculatorTool } from '@/components/tools/ZakatCalculatorTool';
@@ -93,6 +92,13 @@ export function ToolPageWrapper({ toolId, onNavigate }: ToolPageWrapperProps) {
 
     // Scroll to top upon navigation to tool
     window.scrollTo({ top: 0, behavior: 'instant' });
+
+    return () => {
+      const script = document.getElementById('route-schema-jsonld');
+      if (script && script.parentNode) {
+        script.parentNode.removeChild(script);
+      }
+    };
   }, [seo, schema]);
 
   if (!seo) {
@@ -208,8 +214,6 @@ export function ToolPageWrapper({ toolId, onNavigate }: ToolPageWrapperProps) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
-      {schema && <JsonLd data={schema} />}
-      
       {/* Tool Interactive Engine */}
       {renderToolComponent()}
 
