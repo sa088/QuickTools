@@ -24,33 +24,7 @@
 
 ## 🛠️ Complete Tool Catalog
 
-### 1. Document & PDF Studio
-
-Execute client-side conversions and edits without file size limits or server upload queues:
-
-- **Word to PDF (`/word-to-pdf`)**: Convert `.docx` documents into crisp, printable PDF files directly in your browser.
-- **Excel to PDF (`/excel-to-pdf`)**: Transform `.xlsx` and `.xls` spreadsheets into clean paginated PDF tables.
-- **JPG / PNG to PDF (`/jpg-to-pdf`)**: Combine multiple images into a multi-page, formatted PDF document with customizable margins and orientations.
-- **PDF to Word (`/pdf-to-word`)**: Extract editable document text and formatting into a standard Word `.docx` file.
-- **PDF to Excel (`/pdf-to-excel`)**: Parse structured tabular data from PDF files into an `.xlsx` workbook.
-- **PDF to JPG (`/pdf-to-jpg`)**: High-resolution page-by-page rendering of PDF pages into JPEG or PNG image assets.
-- **Merge PDF (`/merge-pdf`)**: Reorder and combine multiple PDF files into a single unified document.
-- **Split PDF (`/split-pdf`)**: Extract specific page ranges or burst all pages into individual PDF files.
-- **Compress PDF (`/compress-pdf`)**: Optimize and reduce document size without losing legibility.
-- **Watermark & Protect**: Add custom watermarks or protect PDF documents with passwords.
-
-### 2. Image Studio & Visual Utilities
-
-Professional client-side image editing powered by HTML5 Canvas and advanced color algorithms:
-
-- **Smart Background Remover (`/background-remover`)**: Auto-detects background colors using dominant perimeter clustering and applies high-precision chroma cutout with adjustable tolerance and feathering.
-- **Universal Image Converter (`/image-converter`)**: Convert between PNG, JPG, WebP, AVIF, SVG, BMP, and ICO formats instantly.
-- **Image Compressor (`/image-compressor`)**: Fine-tune compression quality and target exact file size limits (KB/MB).
-- **Image Resizer & Cropper (`/image-resizer`)**: Scale by dimensions, percentage, or aspect ratio presets with pixel-perfect output.
-- **Filter Studio & Enhancer**: Adjust brightness, contrast, saturation, grayscale, and sharpness.
-- **Base64 Image Tool**: Convert images to data URI Base64 strings for direct CSS/HTML embedding.
-
-### 3. Financial & Tax Calculators
+### 1. Financial & Tax Calculators
 
 Accurate financial planning calibrated to official standards and real-time feeds:
 
@@ -68,6 +42,32 @@ Accurate financial planning calibrated to official standards and real-time feeds
 - **Loan & Mortgage EMI Calculator (`/loan-emi-calculator`)**: Compute monthly installments, total interest, and interactive amortization schedules.
 - **Compound Interest Calculator (`/compound-interest`)**: Calculate compound growth across multiple compounding frequencies and contributions.
 - **Inflation & Purchasing Power Calculator**: Visualize historic and future asset values based on inflation rates.
+
+### 2. Image Studio & Visual Utilities
+
+Professional client-side image editing powered by HTML5 Canvas and advanced color algorithms:
+
+- **Smart Background Remover (`/background-remover`)**: Auto-detects background colors using dominant perimeter clustering and applies high-precision chroma cutout with adjustable tolerance and feathering.
+- **Universal Image Converter (`/image-converter`)**: Convert between PNG, JPG, WebP, AVIF, SVG, BMP, and ICO formats instantly.
+- **Image Compressor (`/image-compressor`)**: Fine-tune compression quality and target exact file size limits (KB/MB).
+- **Image Resizer & Cropper (`/image-resizer`)**: Scale by dimensions, percentage, or aspect ratio presets with pixel-perfect output.
+- **Filter Studio & Enhancer**: Adjust brightness, contrast, saturation, grayscale, and sharpness.
+- **Base64 Image Tool**: Convert images to data URI Base64 strings for direct CSS/HTML embedding.
+
+### 3. Document & PDF Studio
+
+Execute client-side conversions and edits without file size limits or server upload queues:
+
+- **Word to PDF (`/word-to-pdf`)**: Convert `.docx` documents into crisp, printable PDF files directly in your browser.
+- **Excel to PDF (`/excel-to-pdf`)**: Transform `.xlsx` and `.xls` spreadsheets into clean paginated PDF tables.
+- **JPG / PNG to PDF (`/jpg-to-pdf`)**: Combine multiple images into a multi-page, formatted PDF document with customizable margins and orientations.
+- **PDF to Word (`/pdf-to-word`)**: Extract editable document text and formatting into a standard Word `.docx` file.
+- **PDF to Excel (`/pdf-to-excel`)**: Parse structured tabular data from PDF files into an `.xlsx` workbook.
+- **PDF to JPG (`/pdf-to-jpg`)**: High-resolution page-by-page rendering of PDF pages into JPEG or PNG image assets.
+- **Merge PDF (`/merge-pdf`)**: Reorder and combine multiple PDF files into a single unified document.
+- **Split PDF (`/split-pdf`)**: Extract specific page ranges or burst all pages into individual PDF files.
+- **Compress PDF (`/compress-pdf`)**: Optimize and reduce document size without losing legibility.
+- **Watermark & Protect**: Add custom watermarks or protect PDF documents with passwords.
 
 ### 4. Daily Math, Health & Everyday Tools
 
@@ -115,100 +115,6 @@ To ensure live market rates never go stale:
 4. **Pakistan Sarafa Bullion Calibration**: Converts spot bullion ($/oz) to Pakistani Rupees using the official APJA duty and assay multiplier:
    $$\text{Gold 24K Tola} = \left(\frac{\text{Gold Spot USD}}{\text{28.3495 or 31.1035}}\right) \times \text{USD/PKR} \times 11.6638 \times 1.016345$$
    yielding exact local bullion rates for 24K & 22K Gold and Silver.
-
----
-
-## 💻 Local Development Setup
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (version 18.0 or higher recommended)
-- `npm` (version 9 or higher)
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/quicktools.git
-cd quicktools
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start development server
-
-```bash
-npm run dev
-```
-
-Open your browser and navigate to `http://localhost:3000`.
-
-### 4. Build for production
-
-```bash
-npm run build
-```
-
-The compiled, production-ready static assets will be output to the `dist/` directory.
-
-### 5. Run lint & type checks
-
-```bash
-npm run lint
-```
-
----
-
-## 🌐 Deploying to Vercel
-
-This repository is optimized for one-click deployment on **Vercel**:
-
-1. Push your code to a GitHub repository:
-   ```bash
-   git add .
-   git commit -m "Initial commit - QuickTools complete suite"
-   git push origin main
-   ```
-2. Log in to [Vercel](https://vercel.com/) and click **"Add New Project"**.
-3. Import your GitHub repository.
-4. Vercel will auto-detect the configuration:
-   - **Framework Preset**: `Vite`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-5. Click **"Deploy"**.
-
-### Important Vercel Configuration
-
-The repository includes `vercel.json` with the SPA fallback rule:
-
-```json
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
-```
-
-This ensures direct URLs (such as `/zakat-calculator` or `/word-to-pdf`) route cleanly to `index.html` without returning 404 errors.
-
----
-
-## 🔍 SEO & Google Indexing Setup
-
-1. **Structured Data (Schema.org)**: Pre-configured JSON-LD breadcrumbs, software application schemas, and FAQ schemas in `index.html`.
-2. **Sitemap & Robots**:
-   - `public/sitemap.xml`: Contains canonical tool routes for Googlebot crawling.
-   - `public/robots.txt`: Directs search engine crawlers to the sitemap.
-3. **Google Search Console**:
-   - Once deployed on your custom domain, verify ownership in [Google Search Console](https://search.google.com/search-console).
-   - Submit your sitemap URL: `https://yourdomain.com/sitemap.xml`.
-   - Use the **URL Inspection** tool to request indexing for high-priority pages (`/`, `/zakat-calculator`, `/word-to-pdf`, `/background-remover`).
 
 ---
 
